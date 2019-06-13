@@ -72,7 +72,7 @@ if __name__ == "__main__":
         emb_size = word_vectors.vector_size
         embedded_inputs = tf.placeholder(tf.float32, [None, None, emb_size], name="embedded_inputs")
     
-    
+
     n_epochs = 25
     for n in range(5,100):
         for epoch in n_epochs:
